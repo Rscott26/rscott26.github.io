@@ -1,2 +1,142 @@
-<p>hello world</p>
-<h>BIG WORDS</h>
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Your Name — Portfolio</title>
+  <meta name="description" content="Portfolio of Your Name: projects, skills, and contact information." />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <header>
+    <div class="container nav">
+      <a class="brand" href="#top" aria-label="Home">
+        <span class="brand-dot" aria-hidden="true"></span>
+        <span>Your Name</span>
+      </a>
+      <nav aria-label="Primary" class="hide-sm">
+        <a href="#projects">Projects</a>
+        <a href="#about">About</a>
+        <a href="#contact">Contact</a>
+        <a class="btn" href="#resume" onclick="return false;" aria-disabled="true" title="Link your resume file">Resume</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main" class="container">
+    <!-- HERO -->
+    <section class="hero" id="top">
+      <div class="hero-grid">
+        <div class="hero-copy">
+          <div class="eyebrow fade-in"><span class="line"></span> Portfolio</div>
+          <h1 class="rise-in">Hi, I'm <span class="gradient-text">Your Name</span>.<br />I craft clean, thoughtful web experiences.</h1>
+          <p class="lead">Replace this blurb with a concise summary of who you are, what you do, and the value you bring. Keep it to 2–3 sentences.</p>
+          <div class="cta">
+            <a class="btn primary" href="mailto:you@example.com">Contact Me</a>
+            <a class="btn" href="#projects">See Projects</a>
+          </div>
+        </div>
+        <div class="hero-art rise-in" aria-label="Decorative abstract hero art">
+          <div class="hero-badge">Open to Opportunities</div>
+          <svg width="160" height="160" viewBox="0 0 160 160" role="img" aria-label="Abstract graphic">
+            <defs>
+              <linearGradient id="g1" x1="0" y1="0" x2="1" y2="1">
+                <stop offset="0" stop-color="var(--brand)"/>
+                <stop offset="1" stop-color="var(--brand-2)"/>
+              </linearGradient>
+            </defs>
+            <circle cx="80" cy="80" r="70" fill="none" stroke="url(#g1)" stroke-width="10"/>
+            <circle cx="80" cy="80" r="40" fill="none" stroke="url(#g1)" stroke-width="10" opacity=".5"/>
+          </svg>
+        </div>
+      </div>
+    </section>
+
+    <!-- PROJECTS -->
+    <section id="projects">
+      <h2 class="section-title">Featured Projects</h2>
+      <p class="muted">Showcase concise descriptions, problems solved, and links.</p>
+      <div class="grid">
+        <!-- Project Cards (example) -->
+        <article class="card col-6">
+          <div class="card-media">Project Screenshot</div>
+          <div class="card-body">
+            <h3 class="card-title">Project One</h3>
+            <p class="muted">Short overview of your role, stack, and value.</p>
+            <div class="card-meta">
+              <span class="chip">HTML</span>
+              <span class="chip">CSS</span>
+            </div>
+            <a class="card-link" href="#">Live demo →</a>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <!-- SKILLS -->
+    <section id="skills">
+      <h2 class="section-title">Skills & Tools</h2>
+      <div class="skills">
+        <span class="chip">HTML5</span>
+        <span class="chip">CSS3</span>
+        <span class="chip">Responsive Design</span>
+        <span class="chip">Accessibility</span>
+      </div>
+    </section>
+
+    <!-- ABOUT -->
+    <section id="about" class="about">
+      <div class="panel">
+        <h2 class="section-title">About Me</h2>
+        <p class="muted">Friendly paragraph about your background, interests, and what you're looking for.</p>
+      </div>
+      <div class="panel">
+        <h2 class="section-title">Highlights</h2>
+        <ul>
+          <li>🏆 Achievement with measurable results.</li>
+          <li>🚀 Project impact.</li>
+          <li>🤝 Collaboration example.</li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section id="contact">
+      <h2 class="section-title">Get in Touch</h2>
+      <div class="contact">
+        <form action="mailto:you@example.com" method="post" enctype="text/plain">
+          <div class="form-row">
+            <div>
+              <label for="name">Name</label>
+              <input id="name" name="name" type="text" placeholder="Your name" required>
+            </div>
+            <div>
+              <label for="email">Email</label>
+              <input id="email" name="email" type="email" placeholder="you@example.com" required>
+            </div>
+          </div>
+          <div>
+            <label for="message">Message</label>
+            <textarea id="message" name="message" placeholder="Tell me about your project…" required></textarea>
+          </div>
+          <button class="btn primary" type="submit">Send</button>
+        </form>
+        <div class="panel">
+          <p class="muted">Reach out at <a href="mailto:you@example.com">you@example.com</a>. Add LinkedIn, GitHub, etc.</p>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="container">
+      <small>© <span id="y">2025</span> Your Name. All rights reserved.</small>
+    </div>
+  </footer>
+</body>
+</html>
+
