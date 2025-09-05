@@ -1,8 +1,8 @@
-/* style.css — Simplified Futuristic Theme */
+/* style.css — Futuristic Theme with Space Gray Background */
 
 /* Colors */
 :root {
-  --bg: #000000;
+  --bg: #1c1c1c;              /* dark space gray instead of pitch black */
   --text: #f0f0f0;
   --muted: #a0a0a0;
   --blue: #00d1ff;
@@ -39,7 +39,7 @@ a:hover {
 
 /* Header */
 header {
-  background: #0a0a0a;
+  background: #1a1a1a; /* slightly lighter gray for contrast */
   border-bottom: 1px solid var(--border);
   position: sticky;
   top: 0;
@@ -103,7 +103,7 @@ header {
   padding: 0.8rem 1.2rem;
   border-radius: 999px;
   border: 1px solid var(--border);
-  background: #111;
+  background: #1e1e1e;
   color: var(--text);
   font-weight: 700;
   transition: 0.2s;
@@ -141,7 +141,7 @@ section {
   gap: 2rem;
 }
 .panel {
-  background: #111;
+  background: #1e1e1e; /* dark gray panels */
   border: 1px solid var(--border);
   border-radius: var(--radius);
   padding: 1.5rem;
@@ -158,14 +158,14 @@ section {
   grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
 }
 .card {
-  background: #111;
+  background: #1e1e1e;
   border: 1px solid var(--border);
   border-radius: var(--radius);
   overflow: hidden;
 }
 .card-media {
   aspect-ratio: 16/9;
-  background: #0a0a0a;
+  background: #222; /* subtle dark gray */
   display: grid;
   place-items: center;
   color: var(--muted);
@@ -207,7 +207,7 @@ input, textarea {
   padding: 0.8rem;
   border-radius: var(--radius);
   border: 1px solid var(--border);
-  background: #111;
+  background: #1e1e1e;
   color: var(--text);
 }
 textarea {
@@ -234,10 +234,35 @@ footer {
   border: 1px solid var(--border);
   border-radius: 50%;
   padding: 0.5rem 0.8rem;
-  background: #111;
+  background: #1e1e1e;
   transition: 0.2s;
 }
 .socials a:hover {
   background: linear-gradient(90deg, var(--blue), var(--pink));
   color: #000;
 }
+/* Highlights two-column layout */
+.highlights-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 2rem;
+  text-align: center; /* centers the headers + bullet points */
+}
+
+.highlights-grid h3 {
+  margin-bottom: 0.5rem;
+  color: var(--blue);
+}
+
+.highlights-grid ul {
+  list-style-position: inside;
+  padding-left: 0;
+  margin: 0;
+}
+
+@media (max-width: 700px) {
+  .highlights-grid {
+    grid-template-columns: 1fr; /* stack on smaller screens */
+  }
+}
+

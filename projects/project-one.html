@@ -1,0 +1,158 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Project One — Rafael Scott</title>
+  <meta name="description" content="Project One detail page for Rafael Scott's portfolio." />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../style.css">
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <header>
+    <div class="container nav">
+      <a class="brand" href="../index.html" aria-label="Home">
+        <span class="brand-dot" aria-hidden="true"></span>
+        <span>Rafael Scott</span>
+      </a>
+      <nav aria-label="Primary" class="hide-sm">
+        <a href="../index.html#about">About</a>
+        <a href="../index.html#projects">Projects</a>
+        <a href="../index.html#contact">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main" class="container">
+    <!-- HERO -->
+    <section class="hero hero-full">
+      <div class="hero-inner">
+        <div class="eyebrow"><span class="line"></span> Project</div>
+        <h1>Project One: <span class="gradient-text">Neon Placeholder</span></h1>
+        <p class="lead">One-line summary of the project’s value and the result achieved.</p>
+        <div class="cta">
+          <a class="btn primary" href="#" target="_blank" rel="noopener">Live Demo</a>
+          <a class="btn" href="#" target="_blank" rel="noopener">Source Code</a>
+          <a class="btn" href="index.html">All Projects</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- OVERVIEW -->
+    <section>
+      <h2 class="section-title">Overview</h2>
+      <div class="panel">
+        <p class="muted">
+          <strong>Goal:</strong> Describe the problem and your solution.<br>
+          <strong>Role:</strong> Your role (e.g., Front-end Dev).<br>
+          <strong>Tech:</strong>
+          <span class="chip">HTML</span>
+          <span class="chip">CSS</span>
+          <span class="chip">Add more</span><br>
+          <strong>Timeline:</strong> Month Year → Month Year
+        </p>
+      </div>
+    </section>
+
+    <!-- MEDIA -->
+    <section>
+      <h2 class="section-title">Media Gallery</h2>
+      <div class="grid">
+        <article class="card">
+          <div class="card-media">
+            <img src="../assets/placeholder-image.jpg" alt="Screenshot of Project One (replace alt text)">
+          </div>
+          <div class="card-body">
+            <h3 class="card-title">Hero Screenshot</h3>
+            <p class="muted">Short caption for this image.</p>
+          </div>
+        </article>
+
+        <article class="card">
+          <div class="card-media">
+            <video controls poster="../assets/placeholder-poster.jpg" style="width:100%; height:auto;">
+              <source src="../assets/placeholder-video.mp4" type="video/mp4">
+              Your browser does not support the video tag.
+            </video>
+          </div>
+          <div class="card-body">
+            <h3 class="card-title">Demo Walkthrough</h3>
+            <p class="muted">What to notice in this clip.</p>
+          </div>
+        </article>
+
+        <article class="card">
+          <div class="card-media" style="aspect-ratio:16/9;">
+            <iframe
+              src="https://www.youtube.com/embed/VIDEO_ID"
+              title="Embedded Video"
+              frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+              allowfullscreen
+              style="width:100%; height:100%;"
+            ></iframe>
+          </div>
+          <div class="card-body">
+            <h3 class="card-title">Embedded Demo</h3>
+            <p class="muted">Explain what this video demonstrates.</p>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <!-- DETAILS -->
+    <section>
+      <h2 class="section-title">Details</h2>
+      <div class="panel">
+        <h3>Key Features</h3>
+        <ul class="muted" style="margin-top:.5rem;">
+          <li>Feature 1 — benefit-focused explanation.</li>
+          <li>Feature 2 — performance, accessibility, or UX detail.</li>
+          <li>Feature 3 — measurable or technical highlight.</li>
+        </ul>
+      </div>
+
+      <div class="panel">
+        <h3>Challenges & Solutions</h3>
+        <ul class="muted" style="margin-top:.5rem;">
+          <li><strong>Challenge:</strong> Hard part… <br><strong>Solution:</strong> Your approach…</li>
+          <li><strong>Challenge:</strong> Another obstacle… <br><strong>Solution:</strong> Your approach…</li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- RESULTS -->
+    <section>
+      <h2 class="section-title">Results</h2>
+      <div class="panel">
+        <ul class="muted" style="margin-top:.5rem;">
+          <li>Outcome or metric — e.g., “+20% signups.”</li>
+          <li>Key feedback — brief, paraphrased quote.</li>
+          <li>What you learned — 1–2 concise takeaways.</li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- LINKS -->
+    <section>
+      <h2 class="section-title">Links</h2>
+      <div class="panel" style="display:flex; gap:1rem; flex-wrap:wrap;">
+        <a class="btn primary" href="#" target="_blank" rel="noopener">Live Demo</a>
+        <a class="btn" href="#" target="_blank" rel="noopener">GitHub Repo</a>
+        <a class="btn" href="index.html">Back to Projects</a>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="container" style="display:flex; align-items:center; justify-content:space-between; gap:1rem; flex-wrap:wrap;">
+      <small>© <span id="y">2025</span> Rafael Scott. All rights reserved.</small>
+      <small>Built with semantic HTML & modern CSS — no JS.</small>
+    </div>
+  </footer>
+</body>
+</html>
