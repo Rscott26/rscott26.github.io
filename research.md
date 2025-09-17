@@ -9,3 +9,5 @@ Thousands of accidents happen yearly in construction due to slips and falls, inc
 In 2023, out of 1,075 construction fatalities, 421 were due to fatal falls to a lower level—making falls the leading cause of death in construction for that year.[OSHA data on falls in construction](https://www.osha.gov/stop-falls?utm_source)
 
 This data shows the amount of worker that die from falling in hazardous areas (https://www.bls.gov/opub/ted/2025/fatal-falls-in-the-construction-industry-in-2023.htm)
+
+This source shows that the leading cuases of falls in the workplace is cluttered walkways, cracks and potholes, and greasy/oily floors (https://www.smithlawcenter.com/blog/statistics-slips-trips-and-falls) 

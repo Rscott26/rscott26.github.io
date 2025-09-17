@@ -3,8 +3,8 @@
 /* Colors */
 :root {
   --bg: #1c1c1c;              /* dark space gray instead of pitch black */
-  --text: #f0f0f0;
-  --muted: #a0a0a0;
+  --text: #ffffff;
+  --muted: #ffffff;
   --blue: #00d1ff;
   --pink: #ff4dff;
   --border: rgba(255, 255, 255, 0.1);
