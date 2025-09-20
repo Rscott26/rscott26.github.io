@@ -147,7 +147,7 @@ section {
   padding: 1.5rem;
 }
 .panel h3 {
-  margin-top: 1rem;
+  margin-top: 1.5rem;
   color: var(--blue);
 }
 
@@ -266,3 +266,15 @@ footer {
   }
 }
 
+.synthesis-content p {
+  margin-bottom: 1.2rem;  /* space after each paragraph */
+  text-indent: 2em;       /* keep your indentation */
+  line-height: 1.6;       /* improves readability */
+}
+.synthesis-content p {
+  font-size: 1.13rem;   /* increases font size (default ~1rem = 16px) */
+  line-height: 2;       /* makes text double-spaced */
+  margin-bottom: 1.5rem;/* adds space between paragraphs */
+  text-indent: 2em; 
+  margin-top: 1rem;    /* keeps indentation */
+}
